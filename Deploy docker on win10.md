@@ -9,6 +9,7 @@
     
 - 安装Hyper-V
     新建文件hyper-V.cmd将以下内容copy到里面：
+    
     ``
       pushd "%~dp0"
       dir /b %SystemRoot%\servicing\Packages\*Hyper-V*.mum >hyper-v.txt
@@ -16,11 +17,13 @@
       del hyper-v.txt
       Dism /online /enable-feature /featurename:Microsoft-Hyper-V-All /LimitAccess /ALL
     ``
+    
     保存后右键使用管理员权限运行，等待安装完成，输入Y重启电脑
     
 - 安装Containers Windows Feature
     因为默认情况下windows容器窗口功能不可用，所以再安装之前先解决掉，以免卸载重装
     新建一个containers.bat，内容如下：
+    
     ``
       pushd "%~dp0"
       dir /b %SystemRoot%\servicing\Packages\*containers*.mum >containers.txt
@@ -29,6 +32,7 @@
       Dism /online /enable-feature /featurename:Containers -All /LimitAccess /ALL
       pause
     ``
+    
     保存后右键使用管理员权限运行，同理等待运行完成，输入Y重启电脑
     更改系统注册编辑器中的win10版本名称
     由于在Docker安装时会检测当前Windows版本，可更改其版本名称 以满跳过海
