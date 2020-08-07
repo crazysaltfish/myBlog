@@ -38,7 +38,7 @@
     
     保存后右键使用管理员权限运行，同理等待运行完成，输入Y重启电脑  
     更改系统注册编辑器中的win10版本名称  
-    由于在Docker安装时会检测当前Windows版本，可更改其版本名称,以满跳过海  
+    由于在Docker安装时会检测当前Windows版本，可更改其版本名称，以满跳过海  
     打开注册表编辑器，找到如下所示的 EditionID：  
     ![1](https://img-blog.csdnimg.cn/20190330220903603.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2l0bmVyZA==,size_16,color_FFFFFF,t_70)
     把数值数据改成 Professional，瞒天过海  
