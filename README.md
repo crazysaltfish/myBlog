@@ -8,4 +8,4 @@ This is a blog for summarizing my daily experience
 - [Thread communication in C++](https://github.com/crazysaltfish/myBlog/blob/master/Thread-communication-in-C%2B%2B.md)
 - [gcd辗转相除法](https://github.com/crazysaltfish/myBlog/blob/master/gcd-in-C++.md)
 - [Cookie和Session的区别](https://github.com/crazysaltfish/myBlog/blob/master/Cookie-and-Session.md)
-- [a = a++ 和 a = ++a 在java里的区别]()
+- [a = a++ 和 a = ++a 在java里的区别](https://github.com/crazysaltfish/myBlog/blob/master/a=a++%20in%20java.md)
