@@ -8,4 +8,4 @@ a = ++a
 
 这就是先计算++，再将 a 的值压入操作数栈，此时压入的值已经是改变的，最后再赋值给 a 的值也是改变后的值。
 
-详情请参考 [a=a++](https://blog.csdn.net/chushoufengli/article/details/86656001)
+详情请参考 [csdn](https://blog.csdn.net/chushoufengli/article/details/86656001)
