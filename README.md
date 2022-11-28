@@ -9,3 +9,6 @@ This is a blog for summarizing my daily experience
 - [gcd辗转相除法](https://github.com/crazysaltfish/myBlog/blob/master/gcd-in-C++.md)
 - [Cookie和Session的区别](https://github.com/crazysaltfish/myBlog/blob/master/Cookie-and-Session.md)
 - [a = a++ 和 a = ++a 在java里的区别](https://github.com/crazysaltfish/myBlog/blob/master/a=a++%20in%20java.md)
+- [java生成CAPTCHA验证码并逐步优化](https://github.com/crazysaltfish/myBlog/blob/master/generateCaptchaWithJava.java)
+
+
